@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 import math
 from torch_geometric.nn import GATv2Conv
-from reader_graph_1 import batch_to_block_diagonal_sparse
+from reader_graph import batch_to_block_diagonal_sparse
 
 
 class Global(nn.Module):
