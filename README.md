@@ -14,13 +14,6 @@ This project should work fine with the following environments:
 
 All experiments are implemented in PyTorch on a single NVIDIA GeForce RTX 3090 Ti.
 
-# Download raw data
-We consider three representative HKG benchmarks: JF17K, WikiPeople-, and WD50K. The datasets can be downloaded from:
-- [JF17K](https://www.dropbox.com/sh/ryxohj363ujqhvq/AAAoGzAElmNnhXrWEj16UiUga?dl=0)
-- [WikiPeople](https://github.com/gsp2014/WikiPeople)
-- [WD50K](https://zenodo.org/record/4036498#.Yx06qoi-uNz)
-
-
 # Training & Evaluation
 Please modify those hyperparameters according to your needs and the characteristics of different datasets.
 
