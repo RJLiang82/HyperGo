@@ -10,8 +10,8 @@ from torch.utils.data.dataloader import DataLoader
 from torch.optim.lr_scheduler import OneCycleLR
 from tqdm import tqdm
 from evaluation import *
-from transformer_g import *
-from reader_graph_1 import *
+from transformer import *
+from reader_graph import *
 from torch.utils.tensorboard import SummaryWriter
 
 os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
